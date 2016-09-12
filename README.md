@@ -1,3 +1,3 @@
-# My Personal Web Site
+# My Personal Website
 <br/>
-<img src="https://vk.com/images/stickers/238/512.png" alt="foxy fox :3">
+<img width="300px" src="https://vk.com/images/stickers/238/512.png" alt="foxy fox :3">
