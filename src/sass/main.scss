@@ -1,1 +1,80 @@
 @import "materialize-css/sass/materialize.scss";
+
+.about {
+  @extend .z-depth-1;
+
+  background: url('https://wcrates.files.wordpress.com/2014/12/android-lollipop-material-wallpaper.png') center no-repeat;
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  color: whitesmoke;
+  position: relative;
+  z-index: 2;
+
+  .row {
+    max-width: 500px;
+
+    .name {
+      @media #{$medium-and-up} {
+        text-align: left;
+      }
+    }
+
+    .avatar {
+      @extend .circle;
+
+      height: 130px;
+      width: auto;
+
+      @media #{$medium-and-up} {
+        float: right;
+      }
+    }
+
+    .first-name {
+      font-size: 35px;
+    }
+
+    .description {
+      font-size: 20px;
+    }
+
+    button {
+      @extend .blue, .lighten-5;
+      color: black;
+      margin-top: 10px;
+    }
+  }
+}
+
+.skills
+{
+  @extend .z-depth-1, .grey, .lighten-3;
+
+  padding-top: 40px;
+
+  .row {
+    max-width: 800px;
+
+    .skill {
+      font-size: 16.5px;
+    }
+
+    .stars {
+      .material-icons {
+        width: 24px;
+        vertical-align: text-top;
+      }
+
+      .favorite {
+        font-size: 22px;
+      }
+    }
+
+    .append {
+      float: right;
+      margin-right: 40px;
+      opacity: 0.8;
+    }
+  }
+}

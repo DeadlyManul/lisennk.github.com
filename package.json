@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.10",
     "sass-module-importer": "^1.2.1"
   },
   "scripts": {
