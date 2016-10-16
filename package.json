@@ -1,0 +1,26 @@
+{
+  "name": "lisennk.github.com",
+  "version": "1.0.0",
+  "description": "<br/> <img width=\"300px\" src=\"https://vk.com/images/stickers/238/512.png\" alt=\"foxy fox :3\">",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^0.97.7"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "sass-module-importer": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisennk/lisennk.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lisennk/lisennk.github.com/issues"
+  },
+  "homepage": "https://github.com/Lisennk/lisennk.github.com#readme"
+}
