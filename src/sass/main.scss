@@ -1,5 +1,24 @@
 @import "materialize-css/sass/materialize.scss";
 
+
+body {
+  overflow-x: hidden;
+}
+.octocat {
+  display: none;
+
+  @media #{$medium-and-up} {
+    display: block;
+    position: absolute;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    left: 840px;
+    top: 50px;
+    right: 0;
+  }
+}
+
 .about {
   @extend .z-depth-1;
 
@@ -56,8 +75,43 @@
   .row {
     max-width: 800px;
 
+    .story {
+      font-size: 18px;
+
+      @media #{$small-and-down} {
+        border-top: 1px solid lightgray;
+        padding-top: 25px;
+      }
+
+      img {
+        vertical-align: middle;
+      }
+
+      a {
+        text-decoration: underline;
+        color: #467F9A;
+      }
+
+      .color1 {
+        @extend  .purple-text;
+      }
+
+      .color2 {
+        @extend .teal-text;
+        text-decoration: underline;
+      }
+
+      .color3 {
+        @extend .pink-text;
+      }
+    }
+
     .skill {
-      font-size: 16.5px;
+      font-size: 16px;
+    }
+
+    .story, .skill {
+      text-align: left;
     }
 
     .stars {

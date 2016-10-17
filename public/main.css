@@ -145,169 +145,169 @@
 .pink {
   background-color: #e91e63 !important; }
 
-.pink-text {
+.pink-text, .skills .row .story .color3 {
   color: #e91e63 !important; }
 
 .pink.lighten-5, .about .row button.pink {
   background-color: #fce4ec !important; }
 
-.pink-text.text-lighten-5 {
+.pink-text.text-lighten-5, .skills .row .story .text-lighten-5.color3 {
   color: #fce4ec !important; }
 
 .pink.lighten-4 {
   background-color: #f8bbd0 !important; }
 
-.pink-text.text-lighten-4 {
+.pink-text.text-lighten-4, .skills .row .story .text-lighten-4.color3 {
   color: #f8bbd0 !important; }
 
 .pink.lighten-3, .pink.skills {
   background-color: #f48fb1 !important; }
 
-.pink-text.text-lighten-3 {
+.pink-text.text-lighten-3, .skills .row .story .text-lighten-3.color3 {
   color: #f48fb1 !important; }
 
 .pink.lighten-2 {
   background-color: #f06292 !important; }
 
-.pink-text.text-lighten-2 {
+.pink-text.text-lighten-2, .skills .row .story .text-lighten-2.color3 {
   color: #f06292 !important; }
 
 .pink.lighten-1 {
   background-color: #ec407a !important; }
 
-.pink-text.text-lighten-1 {
+.pink-text.text-lighten-1, .skills .row .story .text-lighten-1.color3 {
   color: #ec407a !important; }
 
 .pink.darken-1 {
   background-color: #d81b60 !important; }
 
-.pink-text.text-darken-1 {
+.pink-text.text-darken-1, .skills .row .story .text-darken-1.color3 {
   color: #d81b60 !important; }
 
 .pink.darken-2 {
   background-color: #c2185b !important; }
 
-.pink-text.text-darken-2 {
+.pink-text.text-darken-2, .skills .row .story .text-darken-2.color3 {
   color: #c2185b !important; }
 
 .pink.darken-3 {
   background-color: #ad1457 !important; }
 
-.pink-text.text-darken-3 {
+.pink-text.text-darken-3, .skills .row .story .text-darken-3.color3 {
   color: #ad1457 !important; }
 
 .pink.darken-4 {
   background-color: #880e4f !important; }
 
-.pink-text.text-darken-4 {
+.pink-text.text-darken-4, .skills .row .story .text-darken-4.color3 {
   color: #880e4f !important; }
 
 .pink.accent-1 {
   background-color: #ff80ab !important; }
 
-.pink-text.text-accent-1 {
+.pink-text.text-accent-1, .skills .row .story .text-accent-1.color3 {
   color: #ff80ab !important; }
 
 .pink.accent-2 {
   background-color: #ff4081 !important; }
 
-.pink-text.text-accent-2 {
+.pink-text.text-accent-2, .skills .row .story .text-accent-2.color3 {
   color: #ff4081 !important; }
 
 .pink.accent-3 {
   background-color: #f50057 !important; }
 
-.pink-text.text-accent-3 {
+.pink-text.text-accent-3, .skills .row .story .text-accent-3.color3 {
   color: #f50057 !important; }
 
 .pink.accent-4 {
   background-color: #c51162 !important; }
 
-.pink-text.text-accent-4 {
+.pink-text.text-accent-4, .skills .row .story .text-accent-4.color3 {
   color: #c51162 !important; }
 
 .purple {
   background-color: #9c27b0 !important; }
 
-.purple-text {
+.purple-text, .skills .row .story .color1 {
   color: #9c27b0 !important; }
 
 .purple.lighten-5, .about .row button.purple {
   background-color: #f3e5f5 !important; }
 
-.purple-text.text-lighten-5 {
+.purple-text.text-lighten-5, .skills .row .story .text-lighten-5.color1 {
   color: #f3e5f5 !important; }
 
 .purple.lighten-4 {
   background-color: #e1bee7 !important; }
 
-.purple-text.text-lighten-4 {
+.purple-text.text-lighten-4, .skills .row .story .text-lighten-4.color1 {
   color: #e1bee7 !important; }
 
 .purple.lighten-3, .purple.skills {
   background-color: #ce93d8 !important; }
 
-.purple-text.text-lighten-3 {
+.purple-text.text-lighten-3, .skills .row .story .text-lighten-3.color1 {
   color: #ce93d8 !important; }
 
 .purple.lighten-2 {
   background-color: #ba68c8 !important; }
 
-.purple-text.text-lighten-2 {
+.purple-text.text-lighten-2, .skills .row .story .text-lighten-2.color1 {
   color: #ba68c8 !important; }
 
 .purple.lighten-1 {
   background-color: #ab47bc !important; }
 
-.purple-text.text-lighten-1 {
+.purple-text.text-lighten-1, .skills .row .story .text-lighten-1.color1 {
   color: #ab47bc !important; }
 
 .purple.darken-1 {
   background-color: #8e24aa !important; }
 
-.purple-text.text-darken-1 {
+.purple-text.text-darken-1, .skills .row .story .text-darken-1.color1 {
   color: #8e24aa !important; }
 
 .purple.darken-2 {
   background-color: #7b1fa2 !important; }
 
-.purple-text.text-darken-2 {
+.purple-text.text-darken-2, .skills .row .story .text-darken-2.color1 {
   color: #7b1fa2 !important; }
 
 .purple.darken-3 {
   background-color: #6a1b9a !important; }
 
-.purple-text.text-darken-3 {
+.purple-text.text-darken-3, .skills .row .story .text-darken-3.color1 {
   color: #6a1b9a !important; }
 
 .purple.darken-4 {
   background-color: #4a148c !important; }
 
-.purple-text.text-darken-4 {
+.purple-text.text-darken-4, .skills .row .story .text-darken-4.color1 {
   color: #4a148c !important; }
 
 .purple.accent-1 {
   background-color: #ea80fc !important; }
 
-.purple-text.text-accent-1 {
+.purple-text.text-accent-1, .skills .row .story .text-accent-1.color1 {
   color: #ea80fc !important; }
 
 .purple.accent-2 {
   background-color: #e040fb !important; }
 
-.purple-text.text-accent-2 {
+.purple-text.text-accent-2, .skills .row .story .text-accent-2.color1 {
   color: #e040fb !important; }
 
 .purple.accent-3 {
   background-color: #d500f9 !important; }
 
-.purple-text.text-accent-3 {
+.purple-text.text-accent-3, .skills .row .story .text-accent-3.color1 {
   color: #d500f9 !important; }
 
 .purple.accent-4 {
   background-color: #aa00ff !important; }
 
-.purple-text.text-accent-4 {
+.purple-text.text-accent-4, .skills .row .story .text-accent-4.color1 {
   color: #aa00ff !important; }
 
 .deep-purple {
@@ -733,85 +733,85 @@
 .teal {
   background-color: #009688 !important; }
 
-.teal-text {
+.teal-text, .skills .row .story .color2 {
   color: #009688 !important; }
 
 .teal.lighten-5, .about .row button.teal {
   background-color: #e0f2f1 !important; }
 
-.teal-text.text-lighten-5 {
+.teal-text.text-lighten-5, .skills .row .story .text-lighten-5.color2 {
   color: #e0f2f1 !important; }
 
 .teal.lighten-4 {
   background-color: #b2dfdb !important; }
 
-.teal-text.text-lighten-4 {
+.teal-text.text-lighten-4, .skills .row .story .text-lighten-4.color2 {
   color: #b2dfdb !important; }
 
 .teal.lighten-3, .teal.skills {
   background-color: #80cbc4 !important; }
 
-.teal-text.text-lighten-3 {
+.teal-text.text-lighten-3, .skills .row .story .text-lighten-3.color2 {
   color: #80cbc4 !important; }
 
 .teal.lighten-2 {
   background-color: #4db6ac !important; }
 
-.teal-text.text-lighten-2 {
+.teal-text.text-lighten-2, .skills .row .story .text-lighten-2.color2 {
   color: #4db6ac !important; }
 
 .teal.lighten-1 {
   background-color: #26a69a !important; }
 
-.teal-text.text-lighten-1 {
+.teal-text.text-lighten-1, .skills .row .story .text-lighten-1.color2 {
   color: #26a69a !important; }
 
 .teal.darken-1 {
   background-color: #00897b !important; }
 
-.teal-text.text-darken-1 {
+.teal-text.text-darken-1, .skills .row .story .text-darken-1.color2 {
   color: #00897b !important; }
 
 .teal.darken-2 {
   background-color: #00796b !important; }
 
-.teal-text.text-darken-2 {
+.teal-text.text-darken-2, .skills .row .story .text-darken-2.color2 {
   color: #00796b !important; }
 
 .teal.darken-3 {
   background-color: #00695c !important; }
 
-.teal-text.text-darken-3 {
+.teal-text.text-darken-3, .skills .row .story .text-darken-3.color2 {
   color: #00695c !important; }
 
 .teal.darken-4 {
   background-color: #004d40 !important; }
 
-.teal-text.text-darken-4 {
+.teal-text.text-darken-4, .skills .row .story .text-darken-4.color2 {
   color: #004d40 !important; }
 
 .teal.accent-1 {
   background-color: #a7ffeb !important; }
 
-.teal-text.text-accent-1 {
+.teal-text.text-accent-1, .skills .row .story .text-accent-1.color2 {
   color: #a7ffeb !important; }
 
 .teal.accent-2 {
   background-color: #64ffda !important; }
 
-.teal-text.text-accent-2 {
+.teal-text.text-accent-2, .skills .row .story .text-accent-2.color2 {
   color: #64ffda !important; }
 
 .teal.accent-3 {
   background-color: #1de9b6 !important; }
 
-.teal-text.text-accent-3 {
+.teal-text.text-accent-3, .skills .row .story .text-accent-3.color2 {
   color: #1de9b6 !important; }
 
 .teal.accent-4 {
   background-color: #00bfa5 !important; }
 
-.teal-text.text-accent-4 {
+.teal-text.text-accent-4, .skills .row .story .text-accent-4.color2 {
   color: #00bfa5 !important; }
 
 .green {
@@ -6390,6 +6390,22 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 
+body {
+  overflow-x: hidden; }
+
+.octocat {
+  display: none; }
+  @media only screen and (min-width: 601px) {
+    .octocat {
+      display: block;
+      position: absolute;
+      z-index: 10;
+      margin-left: auto;
+      margin-right: auto;
+      left: 840px;
+      top: 50px;
+      right: 0; } }
+
 .about {
   background: url("https://wcrates.files.wordpress.com/2014/12/android-lollipop-material-wallpaper.png") center no-repeat;
   background-size: cover;
@@ -6421,8 +6437,23 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   padding-top: 40px; }
   .skills .row {
     max-width: 800px; }
+    .skills .row .story {
+      font-size: 18px; }
+      @media only screen and (max-width: 600px) {
+        .skills .row .story {
+          border-top: 1px solid lightgray;
+          padding-top: 25px; } }
+      .skills .row .story img {
+        vertical-align: middle; }
+      .skills .row .story a {
+        text-decoration: underline;
+        color: #467F9A; }
+      .skills .row .story .color2 {
+        text-decoration: underline; }
     .skills .row .skill {
-      font-size: 16.5px; }
+      font-size: 16px; }
+    .skills .row .story, .skills .row .skill {
+      text-align: left; }
     .skills .row .stars .material-icons {
       width: 24px;
       vertical-align: text-top; }
