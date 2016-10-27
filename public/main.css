@@ -6407,7 +6407,7 @@ body {
       right: 0; } }
 
 .about {
-  background: url("https://wcrates.files.wordpress.com/2014/12/android-lollipop-material-wallpaper.png") center no-repeat;
+  background: url("../img/top-background.png") center no-repeat;
   background-size: cover;
   padding-top: 35px;
   padding-bottom: 20px;
