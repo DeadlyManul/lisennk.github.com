@@ -159,7 +159,7 @@ body {
 
     .cards {
       margin: 0 auto;
-      padding-top: 30px;
+      padding: 30px;
       column-break-inside: avoid;
 
       @media #{$small-and-down} {
@@ -182,19 +182,22 @@ body {
       .card {
         text-align: left;
 
-        .card-title {
-          text-shadow: 1px 1px 2px black, 0 0 1em black;
-        }
+        &.extended {
 
-        .card-image img {
-          height: 200px;
-          object-fit: cover;
-          -webkit-filter: brightness(65%);
-          -filter: brightness(65%);
-        }
+          .card-title {
+            text-shadow: 1px 1px 2px black, 0 0 1em black;
+          }
 
-        .card-action a {
-          @extend .blue-text;
+          .card-image img {
+            height: 200px;
+            object-fit: cover;
+            -webkit-filter: brightness(65%);
+            -filter: brightness(65%);
+          }
+
+          .card-action a {
+            @extend .blue-text;
+          }
         }
       }
     }

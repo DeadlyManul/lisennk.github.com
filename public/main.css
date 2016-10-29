@@ -481,85 +481,85 @@
 .blue, .about .row button {
   background-color: #2196F3 !important; }
 
-.blue-text, .portfolio .row .cards .card .card-action a {
+.blue-text, .portfolio .row .cards .card.extended .card-action a {
   color: #2196F3 !important; }
 
 .blue.lighten-5, .about .row button {
   background-color: #E3F2FD !important; }
 
-.blue-text.text-lighten-5, .portfolio .row .cards .card .card-action a.text-lighten-5 {
+.blue-text.text-lighten-5, .portfolio .row .cards .card.extended .card-action a.text-lighten-5 {
   color: #E3F2FD !important; }
 
 .blue.lighten-4, .about .row button.lighten-4, .about .row button.portfolio, .blue.portfolio {
   background-color: #BBDEFB !important; }
 
-.blue-text.text-lighten-4, .portfolio .row .cards .card .card-action a.text-lighten-4 {
+.blue-text.text-lighten-4, .portfolio .row .cards .card.extended .card-action a.text-lighten-4 {
   color: #BBDEFB !important; }
 
 .blue.lighten-3, .about .row button.lighten-3, .about .row button.skills, .blue.skills {
   background-color: #90CAF9 !important; }
 
-.blue-text.text-lighten-3, .portfolio .row .cards .card .card-action a.text-lighten-3 {
+.blue-text.text-lighten-3, .portfolio .row .cards .card.extended .card-action a.text-lighten-3 {
   color: #90CAF9 !important; }
 
 .blue.lighten-2, .about .row button.lighten-2 {
   background-color: #64B5F6 !important; }
 
-.blue-text.text-lighten-2, .portfolio .row .cards .card .card-action a.text-lighten-2 {
+.blue-text.text-lighten-2, .portfolio .row .cards .card.extended .card-action a.text-lighten-2 {
   color: #64B5F6 !important; }
 
 .blue.lighten-1, .about .row button.lighten-1 {
   background-color: #42A5F5 !important; }
 
-.blue-text.text-lighten-1, .portfolio .row .cards .card .card-action a.text-lighten-1 {
+.blue-text.text-lighten-1, .portfolio .row .cards .card.extended .card-action a.text-lighten-1 {
   color: #42A5F5 !important; }
 
 .blue.darken-1, .about .row button.darken-1 {
   background-color: #1E88E5 !important; }
 
-.blue-text.text-darken-1, .portfolio .row .cards .card .card-action a.text-darken-1 {
+.blue-text.text-darken-1, .portfolio .row .cards .card.extended .card-action a.text-darken-1 {
   color: #1E88E5 !important; }
 
 .blue.darken-2, .about .row button.darken-2, .about .row .portfolio button.header, .portfolio .about .row button.header, .portfolio .blue.header {
   background-color: #1976D2 !important; }
 
-.blue-text.text-darken-2, .portfolio .row .cards .card .card-action a.text-darken-2 {
+.blue-text.text-darken-2, .portfolio .row .cards .card.extended .card-action a.text-darken-2 {
   color: #1976D2 !important; }
 
 .blue.darken-3, .about .row button.darken-3 {
   background-color: #1565C0 !important; }
 
-.blue-text.text-darken-3, .portfolio .row .cards .card .card-action a.text-darken-3 {
+.blue-text.text-darken-3, .portfolio .row .cards .card.extended .card-action a.text-darken-3 {
   color: #1565C0 !important; }
 
 .blue.darken-4, .about .row button.darken-4 {
   background-color: #0D47A1 !important; }
 
-.blue-text.text-darken-4, .portfolio .row .cards .card .card-action a.text-darken-4 {
+.blue-text.text-darken-4, .portfolio .row .cards .card.extended .card-action a.text-darken-4 {
   color: #0D47A1 !important; }
 
 .blue.accent-1, .about .row button.accent-1 {
   background-color: #82B1FF !important; }
 
-.blue-text.text-accent-1, .portfolio .row .cards .card .card-action a.text-accent-1 {
+.blue-text.text-accent-1, .portfolio .row .cards .card.extended .card-action a.text-accent-1 {
   color: #82B1FF !important; }
 
 .blue.accent-2, .about .row button.accent-2 {
   background-color: #448AFF !important; }
 
-.blue-text.text-accent-2, .portfolio .row .cards .card .card-action a.text-accent-2 {
+.blue-text.text-accent-2, .portfolio .row .cards .card.extended .card-action a.text-accent-2 {
   color: #448AFF !important; }
 
 .blue.accent-3, .about .row button.accent-3 {
   background-color: #2979FF !important; }
 
-.blue-text.text-accent-3, .portfolio .row .cards .card .card-action a.text-accent-3 {
+.blue-text.text-accent-3, .portfolio .row .cards .card.extended .card-action a.text-accent-3 {
   color: #2979FF !important; }
 
 .blue.accent-4, .about .row button.accent-4 {
   background-color: #2962FF !important; }
 
-.blue-text.text-accent-4, .portfolio .row .cards .card .card-action a.text-accent-4 {
+.blue-text.text-accent-4, .portfolio .row .cards .card.extended .card-action a.text-accent-4 {
   color: #2962FF !important; }
 
 .light-blue {
@@ -6484,7 +6484,7 @@ body {
   max-width: 900px; }
   .portfolio .row .cards {
     margin: 0 auto;
-    padding-top: 30px;
+    padding: 30px;
     column-break-inside: avoid; }
     @media only screen and (max-width: 600px) {
       .portfolio .row .cards {
@@ -6501,9 +6501,9 @@ body {
       display: inline-block; }
     .portfolio .row .cards .card {
       text-align: left; }
-      .portfolio .row .cards .card .card-title {
+      .portfolio .row .cards .card.extended .card-title {
         text-shadow: 1px 1px 2px black, 0 0 1em black; }
-      .portfolio .row .cards .card .card-image img {
+      .portfolio .row .cards .card.extended .card-image img {
         height: 200px;
         object-fit: cover;
         -webkit-filter: brightness(65%);
