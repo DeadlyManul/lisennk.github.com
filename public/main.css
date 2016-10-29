@@ -6527,16 +6527,20 @@ body {
           color: #ffab40; }
 
 .contact {
-  padding: 25px 20px;
+  padding: 25px 5px;
   border-top: 1px solid #c5c5c5; }
   .contact h1 {
-    font-size: 23px; }
+    font-size: 23px;
+    padding-bottom: 15px; }
   .contact .buttons {
     max-width: 550px; }
     .contact .buttons button {
-      display: inline-block;
-      margin: 15px;
-      width: 390px; }
+      margin: 15px auto;
+      width: 90%;
+      display: block; }
+      @media only screen and (min-width: 601px) {
+        .contact .buttons button {
+          width: 390px; } }
       .contact .buttons button.vk {
         background-color: #2a5885; }
       .contact .buttons button.skype {

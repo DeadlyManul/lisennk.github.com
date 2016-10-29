@@ -218,11 +218,12 @@ body {
 {
   @extend .grey, .lighten-4;
 
-  padding: 25px 20px;
+  padding: 25px 5px;
   border-top: 1px solid #c5c5c5;
 
   h1 {
     font-size: 23px;
+    padding-bottom: 15px;
   }
 
   .buttons {
@@ -231,10 +232,13 @@ body {
     button {
       @extend .btn-large;
 
-      display: inline-block;
-      margin: 15px;
-      width: 390px;
+      margin: 15px auto;
+      width: 90%;
+      display: block;
 
+      @media #{$medium-and-up} {
+        width: 390px;
+      }
 
       &.vk {
         background-color: #2a5885;
