@@ -6404,6 +6404,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 body {
   overflow-x: hidden; }
 
+.octocat, .portfolio .row .cards .card.extended .card-image img {
+  pointer-events: none; }
+
 .octocat {
   display: none; }
   @media only screen and (min-width: 601px) {
@@ -6478,7 +6481,7 @@ body {
       opacity: 0.8; }
 
 .portfolio {
-  background-image: url("https://psv4.vk.me/c810326/u237223974/docs/e52e227ea59d/poptocat.png?extra=5psD_TiXTFxTZ6MwWz0OssZZiBW8V3ZTQAUt3wBKIF_x1u0N27YFg12py46NTn6mREcrLhGcAmdzCjSaMvR-oLPWPq-9s2aqchuiXEzm6tox8cGm-0ZgpQ_hCD0");
+  background-image: url("../img/poptocat.png");
   background-position-y: bottom;
   background-position-x: right;
   background-size: 50%;

@@ -3,7 +3,14 @@
 body {
   overflow-x: hidden;
 }
+
+%noselect {
+  pointer-events: none;
+}
+
 .octocat {
+  @extend %noselect;
+
   display: none;
 
   @media #{$medium-and-up} {
@@ -126,7 +133,7 @@ body {
 {
   @extend .blue-grey, .lighten-4;
 
-  background-image: url('https://psv4.vk.me/c810326/u237223974/docs/e52e227ea59d/poptocat.png?extra=5psD_TiXTFxTZ6MwWz0OssZZiBW8V3ZTQAUt3wBKIF_x1u0N27YFg12py46NTn6mREcrLhGcAmdzCjSaMvR-oLPWPq-9s2aqchuiXEzm6tox8cGm-0ZgpQ_hCD0');
+  background-image: url('../img/poptocat.png');
   background-position-y: bottom;
   background-position-x: right;
   background-size: 50%;
@@ -197,6 +204,8 @@ body {
           }
 
           .card-image img {
+            @extend %noselect;
+
             height: 200px;
             object-fit: cover;
             -webkit-filter: brightness(65%);
