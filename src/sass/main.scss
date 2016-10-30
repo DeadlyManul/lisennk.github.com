@@ -91,20 +91,7 @@ body {
 
       a {
         text-decoration: underline;
-        color: #467F9A;
-      }
-
-      .color1 {
-        @extend  .purple-text;
-      }
-
-      .color2 {
-        @extend .teal-text;
-        text-decoration: underline;
-      }
-
-      .color3 {
-        @extend .pink-text;
+        color: #000000;
       }
     }
 
@@ -139,25 +126,40 @@ body {
 {
   @extend .blue-grey, .lighten-4;
 
-  background-image: url('https://octodex.github.com/images/poptocat_v2.png');
+  background-image: url('https://psv4.vk.me/c810326/u237223974/docs/e52e227ea59d/poptocat.png?extra=5psD_TiXTFxTZ6MwWz0OssZZiBW8V3ZTQAUt3wBKIF_x1u0N27YFg12py46NTn6mREcrLhGcAmdzCjSaMvR-oLPWPq-9s2aqchuiXEzm6tox8cGm-0ZgpQ_hCD0');
   background-position-y: bottom;
   background-position-x: right;
-  background-size: 350px 350px;
+  background-size: 50%;
   background-repeat: no-repeat;
 
-  .header {
+  .title, .title-block {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .title-block {
     @extend .white-text, .teal, .darken-2, .z-depth-1;
 
     position: absolute;
+    display: none;
     left: 50%;
-    transform: translate(-50%, 0) rotate(-1deg);
+    transform: translate(-50%, 0);
     margin-top: -35px;
-    font-weight: 400;
-    display: inline-block;
     z-index: 10;
     padding: 10px 20px;
-    font-size: 18px;
-    text-transform: uppercase;
+
+    @media #{$medium-and-up} {
+      display: inline-block;
+    }
+  }
+
+  .title {
+    padding-top: 25px;
+
+    @media #{$medium-and-up} {
+      display: none;
+    }
   }
 
   .row {
