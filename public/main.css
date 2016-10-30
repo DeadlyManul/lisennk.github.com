@@ -4,7 +4,7 @@
 .materialize-red-text {
   color: #e51c23 !important; }
 
-.materialize-red.lighten-5, .about .row .materialize-red.btn, .about .row .materialize-red.btn-large {
+.materialize-red.lighten-5, .about .me .materialize-red.btn, .about .me .materialize-red.btn-large {
   background-color: #fdeaeb !important; }
 
 .materialize-red-text.text-lighten-5 {
@@ -64,7 +64,7 @@
 .red-text {
   color: #F44336 !important; }
 
-.red.lighten-5, .about .row .red.btn, .about .row .red.btn-large {
+.red.lighten-5, .about .me .red.btn, .about .me .red.btn-large {
   background-color: #FFEBEE !important; }
 
 .red-text.text-lighten-5 {
@@ -148,7 +148,7 @@
 .pink-text {
   color: #e91e63 !important; }
 
-.pink.lighten-5, .about .row .pink.btn, .about .row .pink.btn-large {
+.pink.lighten-5, .about .me .pink.btn, .about .me .pink.btn-large {
   background-color: #fce4ec !important; }
 
 .pink-text.text-lighten-5 {
@@ -232,7 +232,7 @@
 .purple-text {
   color: #9c27b0 !important; }
 
-.purple.lighten-5, .about .row .purple.btn, .about .row .purple.btn-large {
+.purple.lighten-5, .about .me .purple.btn, .about .me .purple.btn-large {
   background-color: #f3e5f5 !important; }
 
 .purple-text.text-lighten-5 {
@@ -316,7 +316,7 @@
 .deep-purple-text {
   color: #673ab7 !important; }
 
-.deep-purple.lighten-5, .about .row .deep-purple.btn, .about .row .deep-purple.btn-large {
+.deep-purple.lighten-5, .about .me .deep-purple.btn, .about .me .deep-purple.btn-large {
   background-color: #ede7f6 !important; }
 
 .deep-purple-text.text-lighten-5 {
@@ -400,7 +400,7 @@
 .indigo-text {
   color: #3f51b5 !important; }
 
-.indigo.lighten-5, .about .row .indigo.btn, .about .row .indigo.btn-large {
+.indigo.lighten-5, .about .me .indigo.btn, .about .me .indigo.btn-large {
   background-color: #e8eaf6 !important; }
 
 .indigo-text.text-lighten-5 {
@@ -478,85 +478,85 @@
 .indigo-text.text-accent-4 {
   color: #304ffe !important; }
 
-.blue, .about .row .btn, .about .row .btn-large {
+.blue, .about .me .btn, .about .me .btn-large {
   background-color: #2196F3 !important; }
 
 .blue-text, .portfolio .row .cards .card.extended .card-action a {
   color: #2196F3 !important; }
 
-.blue.lighten-5, .about .row .btn, .about .row .btn-large {
+.blue.lighten-5, .about .me .btn, .about .me .btn-large {
   background-color: #E3F2FD !important; }
 
 .blue-text.text-lighten-5, .portfolio .row .cards .card.extended .card-action a.text-lighten-5 {
   color: #E3F2FD !important; }
 
-.blue.lighten-4, .about .row .lighten-4.btn, .about .row .lighten-4.btn-large, .about .row .btn-large.portfolio, .about .row .btn-large.contact, .about .row .btn.portfolio, .about .row .btn.contact, .blue.portfolio, .blue.contact {
+.blue.lighten-4, .about .me .lighten-4.btn, .about .me .lighten-4.btn-large, .about .me .btn-large.portfolio, .about .me .btn-large.contact, .about .me .btn.portfolio, .about .me .btn.contact, .blue.portfolio, .blue.contact {
   background-color: #BBDEFB !important; }
 
 .blue-text.text-lighten-4, .portfolio .row .cards .card.extended .card-action a.text-lighten-4 {
   color: #BBDEFB !important; }
 
-.blue.lighten-3, .about .row .lighten-3.btn, .about .row .lighten-3.btn-large, .about .row .btn-large.skills, .about .row .btn.skills, .blue.skills {
+.blue.lighten-3, .about .me .lighten-3.btn, .about .me .lighten-3.btn-large, .about .me .btn-large.skills, .about .me .btn.skills, .blue.skills {
   background-color: #90CAF9 !important; }
 
 .blue-text.text-lighten-3, .portfolio .row .cards .card.extended .card-action a.text-lighten-3 {
   color: #90CAF9 !important; }
 
-.blue.lighten-2, .about .row .lighten-2.btn, .about .row .lighten-2.btn-large {
+.blue.lighten-2, .about .me .lighten-2.btn, .about .me .lighten-2.btn-large {
   background-color: #64B5F6 !important; }
 
 .blue-text.text-lighten-2, .portfolio .row .cards .card.extended .card-action a.text-lighten-2 {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .about .row .lighten-1.btn, .about .row .lighten-1.btn-large {
+.blue.lighten-1, .about .me .lighten-1.btn, .about .me .lighten-1.btn-large {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .portfolio .row .cards .card.extended .card-action a.text-lighten-1 {
   color: #42A5F5 !important; }
 
-.blue.darken-1, .about .row .darken-1.btn, .about .row .darken-1.btn-large {
+.blue.darken-1, .about .me .darken-1.btn, .about .me .darken-1.btn-large {
   background-color: #1E88E5 !important; }
 
 .blue-text.text-darken-1, .portfolio .row .cards .card.extended .card-action a.text-darken-1 {
   color: #1E88E5 !important; }
 
-.blue.darken-2, .about .row .darken-2.btn, .about .row .darken-2.btn-large, .about .row .portfolio .btn-large.title-block, .portfolio .about .row .btn-large.title-block, .about .row .portfolio .btn.title-block, .portfolio .about .row .btn.title-block, .portfolio .blue.title-block {
+.blue.darken-2, .about .me .darken-2.btn, .about .me .darken-2.btn-large, .about .me .portfolio .btn-large.title-block, .portfolio .about .me .btn-large.title-block, .about .me .portfolio .btn.title-block, .portfolio .about .me .btn.title-block, .portfolio .blue.title-block {
   background-color: #1976D2 !important; }
 
 .blue-text.text-darken-2, .portfolio .row .cards .card.extended .card-action a.text-darken-2 {
   color: #1976D2 !important; }
 
-.blue.darken-3, .about .row .darken-3.btn, .about .row .darken-3.btn-large {
+.blue.darken-3, .about .me .darken-3.btn, .about .me .darken-3.btn-large {
   background-color: #1565C0 !important; }
 
 .blue-text.text-darken-3, .portfolio .row .cards .card.extended .card-action a.text-darken-3 {
   color: #1565C0 !important; }
 
-.blue.darken-4, .about .row .darken-4.btn, .about .row .darken-4.btn-large {
+.blue.darken-4, .about .me .darken-4.btn, .about .me .darken-4.btn-large {
   background-color: #0D47A1 !important; }
 
 .blue-text.text-darken-4, .portfolio .row .cards .card.extended .card-action a.text-darken-4 {
   color: #0D47A1 !important; }
 
-.blue.accent-1, .about .row .accent-1.btn, .about .row .accent-1.btn-large {
+.blue.accent-1, .about .me .accent-1.btn, .about .me .accent-1.btn-large {
   background-color: #82B1FF !important; }
 
 .blue-text.text-accent-1, .portfolio .row .cards .card.extended .card-action a.text-accent-1 {
   color: #82B1FF !important; }
 
-.blue.accent-2, .about .row .accent-2.btn, .about .row .accent-2.btn-large {
+.blue.accent-2, .about .me .accent-2.btn, .about .me .accent-2.btn-large {
   background-color: #448AFF !important; }
 
 .blue-text.text-accent-2, .portfolio .row .cards .card.extended .card-action a.text-accent-2 {
   color: #448AFF !important; }
 
-.blue.accent-3, .about .row .accent-3.btn, .about .row .accent-3.btn-large {
+.blue.accent-3, .about .me .accent-3.btn, .about .me .accent-3.btn-large {
   background-color: #2979FF !important; }
 
 .blue-text.text-accent-3, .portfolio .row .cards .card.extended .card-action a.text-accent-3 {
   color: #2979FF !important; }
 
-.blue.accent-4, .about .row .accent-4.btn, .about .row .accent-4.btn-large {
+.blue.accent-4, .about .me .accent-4.btn, .about .me .accent-4.btn-large {
   background-color: #2962FF !important; }
 
 .blue-text.text-accent-4, .portfolio .row .cards .card.extended .card-action a.text-accent-4 {
@@ -568,7 +568,7 @@
 .light-blue-text {
   color: #03a9f4 !important; }
 
-.light-blue.lighten-5, .about .row .light-blue.btn, .about .row .light-blue.btn-large {
+.light-blue.lighten-5, .about .me .light-blue.btn, .about .me .light-blue.btn-large {
   background-color: #e1f5fe !important; }
 
 .light-blue-text.text-lighten-5 {
@@ -652,7 +652,7 @@
 .cyan-text {
   color: #00bcd4 !important; }
 
-.cyan.lighten-5, .about .row .cyan.btn, .about .row .cyan.btn-large {
+.cyan.lighten-5, .about .me .cyan.btn, .about .me .cyan.btn-large {
   background-color: #e0f7fa !important; }
 
 .cyan-text.text-lighten-5 {
@@ -736,7 +736,7 @@
 .teal-text {
   color: #009688 !important; }
 
-.teal.lighten-5, .about .row .teal.btn, .about .row .teal.btn-large, .about .row .portfolio .btn-large.title-block, .portfolio .about .row .btn-large.title-block, .about .row .portfolio .btn.title-block, .portfolio .about .row .btn.title-block, .portfolio .lighten-5.title-block {
+.teal.lighten-5, .about .me .teal.btn, .about .me .teal.btn-large, .about .me .portfolio .btn-large.title-block, .portfolio .about .me .btn-large.title-block, .about .me .portfolio .btn.title-block, .portfolio .about .me .btn.title-block, .portfolio .lighten-5.title-block {
   background-color: #e0f2f1 !important; }
 
 .teal-text.text-lighten-5 {
@@ -820,7 +820,7 @@
 .green-text {
   color: #4CAF50 !important; }
 
-.green.lighten-5, .about .row .green.btn, .about .row .green.btn-large {
+.green.lighten-5, .about .me .green.btn, .about .me .green.btn-large {
   background-color: #E8F5E9 !important; }
 
 .green-text.text-lighten-5 {
@@ -904,7 +904,7 @@
 .light-green-text {
   color: #8bc34a !important; }
 
-.light-green.lighten-5, .about .row .light-green.btn, .about .row .light-green.btn-large {
+.light-green.lighten-5, .about .me .light-green.btn, .about .me .light-green.btn-large {
   background-color: #f1f8e9 !important; }
 
 .light-green-text.text-lighten-5 {
@@ -988,7 +988,7 @@
 .lime-text {
   color: #cddc39 !important; }
 
-.lime.lighten-5, .about .row .lime.btn, .about .row .lime.btn-large {
+.lime.lighten-5, .about .me .lime.btn, .about .me .lime.btn-large {
   background-color: #f9fbe7 !important; }
 
 .lime-text.text-lighten-5 {
@@ -1072,7 +1072,7 @@
 .yellow-text {
   color: #ffeb3b !important; }
 
-.yellow.lighten-5, .about .row .yellow.btn, .about .row .yellow.btn-large {
+.yellow.lighten-5, .about .me .yellow.btn, .about .me .yellow.btn-large {
   background-color: #fffde7 !important; }
 
 .yellow-text.text-lighten-5 {
@@ -1156,7 +1156,7 @@
 .amber-text {
   color: #ffc107 !important; }
 
-.amber.lighten-5, .about .row .amber.btn, .about .row .amber.btn-large {
+.amber.lighten-5, .about .me .amber.btn, .about .me .amber.btn-large {
   background-color: #fff8e1 !important; }
 
 .amber-text.text-lighten-5 {
@@ -1240,7 +1240,7 @@
 .orange-text {
   color: #ff9800 !important; }
 
-.orange.lighten-5, .about .row .orange.btn, .about .row .orange.btn-large {
+.orange.lighten-5, .about .me .orange.btn, .about .me .orange.btn-large {
   background-color: #fff3e0 !important; }
 
 .orange-text.text-lighten-5 {
@@ -1324,7 +1324,7 @@
 .deep-orange-text {
   color: #ff5722 !important; }
 
-.deep-orange.lighten-5, .about .row .deep-orange.btn, .about .row .deep-orange.btn-large {
+.deep-orange.lighten-5, .about .me .deep-orange.btn, .about .me .deep-orange.btn-large {
   background-color: #fbe9e7 !important; }
 
 .deep-orange-text.text-lighten-5 {
@@ -1408,7 +1408,7 @@
 .brown-text {
   color: #795548 !important; }
 
-.brown.lighten-5, .about .row .brown.btn, .about .row .brown.btn-large {
+.brown.lighten-5, .about .me .brown.btn, .about .me .brown.btn-large {
   background-color: #efebe9 !important; }
 
 .brown-text.text-lighten-5 {
@@ -1468,7 +1468,7 @@
 .blue-grey-text {
   color: #607d8b !important; }
 
-.blue-grey.lighten-5, .about .row .blue-grey.btn, .about .row .blue-grey.btn-large, .about .row .btn-large.portfolio, .about .row .btn.portfolio, .lighten-5.portfolio {
+.blue-grey.lighten-5, .about .me .blue-grey.btn, .about .me .blue-grey.btn-large, .about .me .btn-large.portfolio, .about .me .btn.portfolio, .lighten-5.portfolio {
   background-color: #eceff1 !important; }
 
 .blue-grey-text.text-lighten-5 {
@@ -1528,7 +1528,7 @@
 .grey-text {
   color: #9e9e9e !important; }
 
-.grey.lighten-5, .about .row .grey.btn, .about .row .grey.btn-large, .about .row .btn-large.skills, .about .row .btn-large.contact, .about .row .btn.skills, .about .row .btn.contact, .lighten-5.skills, .lighten-5.contact {
+.grey.lighten-5, .about .me .grey.btn, .about .me .grey.btn-large, .about .me .btn-large.skills, .about .me .btn-large.contact, .about .me .btn.skills, .about .me .btn.contact, .lighten-5.skills, .lighten-5.contact {
   background-color: #fafafa !important; }
 
 .grey-text.text-lighten-5 {
@@ -2385,7 +2385,7 @@ td, th {
       min-height: 84px;
       padding-left: 72px;
       position: relative; }
-      .collection .collection-item.avatar .circle, .collection .collection-item.avatar .about .row .avatar, .about .row .collection .collection-item.avatar .avatar {
+      .collection .collection-item.avatar .circle, .collection .collection-item.avatar .about .me .avatar, .about .me .collection .collection-item.avatar .avatar {
         position: absolute;
         width: 42px;
         height: 42px;
@@ -2393,7 +2393,7 @@ td, th {
         left: 15px;
         display: inline-block;
         vertical-align: middle; }
-      .collection .collection-item.avatar i.circle, .collection .collection-item.avatar .about .row i.avatar, .about .row .collection .collection-item.avatar i.avatar {
+      .collection .collection-item.avatar i.circle, .collection .collection-item.avatar .about .me i.avatar, .about .me .collection .collection-item.avatar i.avatar {
         font-size: 18px;
         line-height: 42px;
         color: #fff;
@@ -2565,7 +2565,7 @@ input[type=range] + .thumb {
   -ms-user-select: none;
   user-select: none; }
 
-.circle, .about .row .avatar {
+.circle, .about .me .avatar {
   border-radius: 50%; }
 
 .center-block {
@@ -5192,9 +5192,9 @@ input[type=range]:focus::-ms-fill-upper {
       bottom: 0;
       left: 0;
       z-index: -1; }
-    .side-nav .userView .circle, .side-nav .userView .about .row .avatar, .about .row .side-nav .userView .avatar, .side-nav .userView .name, .side-nav .userView .email {
+    .side-nav .userView .circle, .side-nav .userView .about .me .avatar, .about .me .side-nav .userView .avatar, .side-nav .userView .name, .side-nav .userView .email {
       display: block; }
-    .side-nav .userView .circle, .side-nav .userView .about .row .avatar, .about .row .side-nav .userView .avatar {
+    .side-nav .userView .circle, .side-nav .userView .about .me .avatar, .about .me .side-nav .userView .avatar {
       height: 64px;
       width: 64px; }
     .side-nav .userView .name,
@@ -5535,7 +5535,7 @@ input[type=range]:focus::-ms-fill-upper {
   overflow: hidden;
   border-color: inherit; }
 
-.gap-patch .circle, .gap-patch .about .row .avatar, .about .row .gap-patch .avatar {
+.gap-patch .circle, .gap-patch .about .me .avatar, .about .me .gap-patch .avatar {
   width: 1000%;
   left: -450%; }
 
@@ -5546,7 +5546,7 @@ input[type=range]:focus::-ms-fill-upper {
   height: 100%;
   overflow: hidden;
   border-color: inherit; }
-  .circle-clipper .circle, .circle-clipper .about .row .avatar, .about .row .circle-clipper .avatar {
+  .circle-clipper .circle, .circle-clipper .about .me .avatar, .about .me .circle-clipper .avatar {
     width: 200%;
     height: 100%;
     border-width: 3px;
@@ -5561,23 +5561,23 @@ input[type=range]:focus::-ms-fill-upper {
     top: 0;
     right: 0;
     bottom: 0; }
-  .circle-clipper.left .circle, .circle-clipper.left .about .row .avatar, .about .row .circle-clipper.left .avatar {
+  .circle-clipper.left .circle, .circle-clipper.left .about .me .avatar, .about .me .circle-clipper.left .avatar {
     left: 0;
     border-right-color: transparent !important;
     -webkit-transform: rotate(129deg);
     transform: rotate(129deg); }
-  .circle-clipper.right .circle, .circle-clipper.right .about .row .avatar, .about .row .circle-clipper.right .avatar {
+  .circle-clipper.right .circle, .circle-clipper.right .about .me .avatar, .about .me .circle-clipper.right .avatar {
     left: -100%;
     border-left-color: transparent !important;
     -webkit-transform: rotate(-129deg);
     transform: rotate(-129deg); }
 
-.active .circle-clipper.left .circle, .active .circle-clipper.left .about .row .avatar, .about .row .active .circle-clipper.left .avatar {
+.active .circle-clipper.left .circle, .active .circle-clipper.left .about .me .avatar, .about .me .active .circle-clipper.left .avatar {
   /* duration: ARCTIME */
   -webkit-animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-.active .circle-clipper.right .circle, .active .circle-clipper.right .about .row .avatar, .about .row .active .circle-clipper.right .avatar {
+.active .circle-clipper.right .circle, .active .circle-clipper.right .about .me .avatar, .about .me .active .circle-clipper.right .avatar {
   /* duration: ARCTIME */
   -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
@@ -6428,22 +6428,31 @@ body {
   color: whitesmoke;
   position: relative;
   z-index: 4; }
-  .about .row {
-    max-width: 600px; }
+  .about .me {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px; }
     @media only screen and (min-width: 601px) {
-      .about .row .name {
+      .about .me {
         text-align: left; } }
-    .about .row .avatar {
+    .about .me .avatar {
       height: 130px;
-      width: auto; }
+      width: auto;
+      display: block;
+      margin: auto;
+      padding-bottom: 5px; }
       @media only screen and (min-width: 601px) {
-        .about .row .avatar {
-          float: right; } }
-    .about .row .first-name {
+        .about .me .avatar {
+          padding-bottom: 0;
+          padding-right: 20px;
+          display: inline;
+          float: left; } }
+    .about .me .first-name {
       font-size: 35px; }
-    .about .row .description {
-      font-size: 20px; }
-    .about .row .btn, .about .row .btn-large {
+    .about .me .description {
+      font-size: 19px; }
+    .about .me .btn, .about .me .btn-large {
       color: black;
       margin-top: 10px; }
 
@@ -6538,7 +6547,8 @@ body {
         height: 200px;
         object-fit: cover;
         -webkit-filter: brightness(65%);
-        -filter: brightness(65%); }
+        -moz-filter: brightness(65%);
+        filter: brightness(65%); }
       .portfolio .row .cards .card .card-action a {
         color: #ffab40; }
 

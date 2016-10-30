@@ -36,13 +36,14 @@ body {
   position: relative;
   z-index: 4;
 
-  .row {
-    max-width: 600px;
+  .me {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
 
-    .name {
-      @media #{$medium-and-up} {
-        text-align: left;
-      }
+    @media #{$medium-and-up} {
+      text-align: left;
     }
 
     .avatar {
@@ -50,9 +51,15 @@ body {
 
       height: 130px;
       width: auto;
+      display: block;
+      margin: auto;
+      padding-bottom: 5px;
 
       @media #{$medium-and-up} {
-        float: right;
+        padding-bottom: 0;
+        padding-right: 20px;
+        display: inline;
+        float: left;
       }
     }
 
@@ -61,7 +68,7 @@ body {
     }
 
     .description {
-      font-size: 20px;
+      font-size: 19px;
     }
 
     .btn {
@@ -214,7 +221,9 @@ body {
             height: 200px;
             object-fit: cover;
             -webkit-filter: brightness(65%);
-            -filter: brightness(65%);
+            -moz-filter: brightness(65%);
+            filter: brightness(65%);
+
           }
 
           .card-action a {
