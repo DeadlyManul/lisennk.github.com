@@ -37,7 +37,7 @@ body {
   z-index: 4;
 
   .row {
-    max-width: 500px;
+    max-width: 600px;
 
     .name {
       @media #{$medium-and-up} {
@@ -80,7 +80,13 @@ body {
   z-index: 3;
 
   .row {
+
+
     max-width: 800px;
+
+    @media #{$large-and-up} {
+      max-width: 900px;
+    }
 
     .story {
       font-size: 18px;
@@ -133,12 +139,6 @@ body {
 {
   @extend .blue-grey, .lighten-4;
 
-  background-image: url('../img/poptocat.png');
-  background-position-y: bottom;
-  background-position-x: right;
-  background-size: 50%;
-  background-repeat: no-repeat;
-
   .title, .title-block {
     font-size: 18px;
     text-transform: uppercase;
@@ -171,6 +171,11 @@ body {
 
   .row {
     max-width: 900px;
+    background-image: url('../img/poptocat.png');
+    background-position-y: bottom;
+    background-position-x: right;
+    background-size: 498px 328px;
+    background-repeat: no-repeat;
 
     .cards {
       margin: 0 auto;

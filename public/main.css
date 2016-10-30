@@ -6429,7 +6429,7 @@ body {
   position: relative;
   z-index: 4; }
   .about .row {
-    max-width: 500px; }
+    max-width: 600px; }
     @media only screen and (min-width: 601px) {
       .about .row .name {
         text-align: left; } }
@@ -6453,6 +6453,9 @@ body {
   z-index: 3; }
   .skills .row {
     max-width: 800px; }
+    @media only screen and (min-width: 993px) {
+      .skills .row {
+        max-width: 900px; } }
     .skills .row .story {
       font-size: 18px; }
       @media only screen and (max-width: 600px) {
@@ -6480,62 +6483,64 @@ body {
       margin-right: 40px;
       opacity: 0.8; }
 
-.portfolio {
+.portfolio .title, .portfolio .title-block {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.portfolio .title-block {
+  position: absolute;
+  display: none;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: -35px;
+  z-index: 10;
+  padding: 10px 20px; }
+  @media only screen and (min-width: 601px) {
+    .portfolio .title-block {
+      display: inline-block; } }
+
+.portfolio .title {
+  padding-top: 25px; }
+  @media only screen and (min-width: 601px) {
+    .portfolio .title {
+      display: none; } }
+
+.portfolio .row {
+  max-width: 900px;
   background-image: url("../img/poptocat.png");
   background-position-y: bottom;
   background-position-x: right;
-  background-size: 50%;
+  background-size: 498px 328px;
   background-repeat: no-repeat; }
-  .portfolio .title, .portfolio .title-block {
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: 400; }
-  .portfolio .title-block {
-    position: absolute;
-    display: none;
-    left: 50%;
-    transform: translate(-50%, 0);
-    margin-top: -35px;
-    z-index: 10;
-    padding: 10px 20px; }
+  .portfolio .row .cards {
+    margin: 0 auto;
+    padding: 30px;
+    column-break-inside: avoid; }
+    @media only screen and (max-width: 600px) {
+      .portfolio .row .cards {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1; } }
     @media only screen and (min-width: 601px) {
-      .portfolio .title-block {
-        display: inline-block; } }
-  .portfolio .title {
-    padding-top: 25px; }
-    @media only screen and (min-width: 601px) {
-      .portfolio .title {
-        display: none; } }
-  .portfolio .row {
-    max-width: 900px; }
-    .portfolio .row .cards {
-      margin: 0 auto;
-      padding: 30px;
-      column-break-inside: avoid; }
-      @media only screen and (max-width: 600px) {
-        .portfolio .row .cards {
-          -webkit-column-count: 1;
-          -moz-column-count: 1;
-          column-count: 1; } }
-      @media only screen and (min-width: 601px) {
-        .portfolio .row .cards {
-          -webkit-column-count: 3;
-          -moz-column-count: 3;
-          column-count: 3; } }
-      .portfolio .row .cards .card-container, .portfolio .row .cards .card {
-        overflow: visible;
-        display: inline-block; }
-      .portfolio .row .cards .card {
-        text-align: left; }
-        .portfolio .row .cards .card.extended .card-title {
-          text-shadow: 1px 1px 2px black, 0 0 1em black; }
-        .portfolio .row .cards .card.extended .card-image img {
-          height: 200px;
-          object-fit: cover;
-          -webkit-filter: brightness(65%);
-          -filter: brightness(65%); }
-        .portfolio .row .cards .card .card-action a {
-          color: #ffab40; }
+      .portfolio .row .cards {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3; } }
+    .portfolio .row .cards .card-container, .portfolio .row .cards .card {
+      overflow: visible;
+      display: inline-block; }
+    .portfolio .row .cards .card {
+      text-align: left; }
+      .portfolio .row .cards .card.extended .card-title {
+        text-shadow: 1px 1px 2px black, 0 0 1em black; }
+      .portfolio .row .cards .card.extended .card-image img {
+        height: 200px;
+        object-fit: cover;
+        -webkit-filter: brightness(65%);
+        -filter: brightness(65%); }
+      .portfolio .row .cards .card .card-action a {
+        color: #ffab40; }
 
 .contact {
   padding: 25px 5px;
