@@ -72,7 +72,8 @@ body {
     }
 
     .btn {
-      @extend .blue, .lighten-5;
+      @extend .white, .lighten-5;
+
       color: black;
       margin-top: 10px;
     }
@@ -179,8 +180,7 @@ body {
   .row {
     max-width: 900px;
     background-image: url('../img/poptocat.png');
-    background-position-y: bottom;
-    background-position-x: right;
+    background-position: bottom right;
     background-size: 498px 328px;
     background-repeat: no-repeat;
 
@@ -213,6 +213,7 @@ body {
 
           .card-title {
             text-shadow: 1px 1px 2px black, 0 0 1em black;
+            font-weight: normal;
           }
 
           .card-image img {
@@ -221,8 +222,8 @@ body {
             height: 200px;
             object-fit: cover;
             -webkit-filter: brightness(65%);
-            -moz-filter: brightness(65%);
-            filter: brightness(65%);
+               -moz-filter: brightness(65%);
+                    filter: brightness(65%);
 
           }
 

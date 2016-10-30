@@ -478,85 +478,85 @@
 .indigo-text.text-accent-4 {
   color: #304ffe !important; }
 
-.blue, .about .me .btn, .about .me .btn-large {
+.blue {
   background-color: #2196F3 !important; }
 
 .blue-text, .portfolio .row .cards .card.extended .card-action a {
   color: #2196F3 !important; }
 
-.blue.lighten-5, .about .me .btn, .about .me .btn-large {
+.blue.lighten-5, .about .me .blue.btn, .about .me .blue.btn-large {
   background-color: #E3F2FD !important; }
 
 .blue-text.text-lighten-5, .portfolio .row .cards .card.extended .card-action a.text-lighten-5 {
   color: #E3F2FD !important; }
 
-.blue.lighten-4, .about .me .lighten-4.btn, .about .me .lighten-4.btn-large, .about .me .btn-large.portfolio, .about .me .btn-large.contact, .about .me .btn.portfolio, .about .me .btn.contact, .blue.portfolio, .blue.contact {
+.blue.lighten-4, .blue.portfolio, .blue.contact {
   background-color: #BBDEFB !important; }
 
 .blue-text.text-lighten-4, .portfolio .row .cards .card.extended .card-action a.text-lighten-4 {
   color: #BBDEFB !important; }
 
-.blue.lighten-3, .about .me .lighten-3.btn, .about .me .lighten-3.btn-large, .about .me .btn-large.skills, .about .me .btn.skills, .blue.skills {
+.blue.lighten-3, .blue.skills {
   background-color: #90CAF9 !important; }
 
 .blue-text.text-lighten-3, .portfolio .row .cards .card.extended .card-action a.text-lighten-3 {
   color: #90CAF9 !important; }
 
-.blue.lighten-2, .about .me .lighten-2.btn, .about .me .lighten-2.btn-large {
+.blue.lighten-2 {
   background-color: #64B5F6 !important; }
 
 .blue-text.text-lighten-2, .portfolio .row .cards .card.extended .card-action a.text-lighten-2 {
   color: #64B5F6 !important; }
 
-.blue.lighten-1, .about .me .lighten-1.btn, .about .me .lighten-1.btn-large {
+.blue.lighten-1 {
   background-color: #42A5F5 !important; }
 
 .blue-text.text-lighten-1, .portfolio .row .cards .card.extended .card-action a.text-lighten-1 {
   color: #42A5F5 !important; }
 
-.blue.darken-1, .about .me .darken-1.btn, .about .me .darken-1.btn-large {
+.blue.darken-1 {
   background-color: #1E88E5 !important; }
 
 .blue-text.text-darken-1, .portfolio .row .cards .card.extended .card-action a.text-darken-1 {
   color: #1E88E5 !important; }
 
-.blue.darken-2, .about .me .darken-2.btn, .about .me .darken-2.btn-large, .about .me .portfolio .btn-large.title-block, .portfolio .about .me .btn-large.title-block, .about .me .portfolio .btn.title-block, .portfolio .about .me .btn.title-block, .portfolio .blue.title-block {
+.blue.darken-2, .portfolio .blue.title-block {
   background-color: #1976D2 !important; }
 
 .blue-text.text-darken-2, .portfolio .row .cards .card.extended .card-action a.text-darken-2 {
   color: #1976D2 !important; }
 
-.blue.darken-3, .about .me .darken-3.btn, .about .me .darken-3.btn-large {
+.blue.darken-3 {
   background-color: #1565C0 !important; }
 
 .blue-text.text-darken-3, .portfolio .row .cards .card.extended .card-action a.text-darken-3 {
   color: #1565C0 !important; }
 
-.blue.darken-4, .about .me .darken-4.btn, .about .me .darken-4.btn-large {
+.blue.darken-4 {
   background-color: #0D47A1 !important; }
 
 .blue-text.text-darken-4, .portfolio .row .cards .card.extended .card-action a.text-darken-4 {
   color: #0D47A1 !important; }
 
-.blue.accent-1, .about .me .accent-1.btn, .about .me .accent-1.btn-large {
+.blue.accent-1 {
   background-color: #82B1FF !important; }
 
 .blue-text.text-accent-1, .portfolio .row .cards .card.extended .card-action a.text-accent-1 {
   color: #82B1FF !important; }
 
-.blue.accent-2, .about .me .accent-2.btn, .about .me .accent-2.btn-large {
+.blue.accent-2 {
   background-color: #448AFF !important; }
 
 .blue-text.text-accent-2, .portfolio .row .cards .card.extended .card-action a.text-accent-2 {
   color: #448AFF !important; }
 
-.blue.accent-3, .about .me .accent-3.btn, .about .me .accent-3.btn-large {
+.blue.accent-3 {
   background-color: #2979FF !important; }
 
 .blue-text.text-accent-3, .portfolio .row .cards .card.extended .card-action a.text-accent-3 {
   color: #2979FF !important; }
 
-.blue.accent-4, .about .me .accent-4.btn, .about .me .accent-4.btn-large {
+.blue.accent-4 {
   background-color: #2962FF !important; }
 
 .blue-text.text-accent-4, .portfolio .row .cards .card.extended .card-action a.text-accent-4 {
@@ -1588,7 +1588,7 @@
 .black-text {
   color: #000000 !important; }
 
-.white {
+.white, .about .me .btn, .about .me .btn-large {
   background-color: #FFFFFF !important; }
 
 .white-text, .portfolio .title-block {
@@ -6518,8 +6518,7 @@ body {
 .portfolio .row {
   max-width: 900px;
   background-image: url("../img/poptocat.png");
-  background-position-y: bottom;
-  background-position-x: right;
+  background-position: bottom right;
   background-size: 498px 328px;
   background-repeat: no-repeat; }
   .portfolio .row .cards {
@@ -6542,7 +6541,8 @@ body {
     .portfolio .row .cards .card {
       text-align: left; }
       .portfolio .row .cards .card.extended .card-title {
-        text-shadow: 1px 1px 2px black, 0 0 1em black; }
+        text-shadow: 1px 1px 2px black, 0 0 1em black;
+        font-weight: normal; }
       .portfolio .row .cards .card.extended .card-image img {
         height: 200px;
         object-fit: cover;
