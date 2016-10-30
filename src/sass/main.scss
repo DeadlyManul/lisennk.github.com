@@ -57,7 +57,7 @@ body {
       font-size: 20px;
     }
 
-    button {
+    .btn {
       @extend .blue, .lighten-5;
       color: black;
       margin-top: 10px;
@@ -231,7 +231,7 @@ body {
   .buttons {
     max-width: 550px;
 
-    button {
+    .btn {
       @extend .btn-large;
 
       margin: 15px auto;
